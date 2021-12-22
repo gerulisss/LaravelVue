@@ -4,9 +4,8 @@
     
  -------------------------
 
- **Author**
+ 👤 **Author**
 -------------------------
-👤 **Author**
 
 RokasM: [Github](https://github.com/gerulisss)
 
