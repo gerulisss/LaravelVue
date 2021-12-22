@@ -12,5 +12,5 @@
 
  📝 **License**
 ------------------------
-Copyright © 2021 [RokisM](https://github.com/gerulisss)<br />
+Copyright © 2021 [RokasM](https://github.com/gerulisss)<br />
 
