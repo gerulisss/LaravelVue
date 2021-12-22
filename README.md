@@ -7,10 +7,10 @@
 -------------------------
 👤 **RokisM**
 
-- Github: [@gerulisss](https://github.com/gerulisss)
+- Github: [RokasM](https://github.com/gerulisss)
 
 
  📝 **License**
 ------------------------
-Copyright © 2021 [RokasM](https://github.com/gerulisss)<br />
+Copyright © 2021 [RokasM](https://rokasm.lt)<br />
 
