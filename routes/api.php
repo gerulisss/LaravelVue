@@ -27,9 +27,6 @@ Route::middleware('guest')->group(function () {
     Route::post('/forgot-password', ForgotPasswordController::class);
     Route::post('/reset-password', ResetPasswordController::class);
 
-    // guest verification (temporary auth)
-    // Route::post('/verify-email/{id}/{hash}', [VerificationController::class, 'verify'])->name('verify');
-    // Route::post('/verify-resend', [VerificationController::class, 'resend']);
 });
 
 Route::post('/verify-email/{id}/{hash}', [VerificationController::class, 'verify'])->name('verify');
@@ -41,9 +38,6 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('/user', UserController::class);
     Route::post('/logout', [AuthController::class, 'logout']);
 
-    // in app verification
-    // Route::post('/verify-email/{id}/{hash}', [VerificationController::class, 'verify'])->name('verify');
-    // Route::post('/verify-resend', [VerificationController::class, 'resend']);
 });
 
 Route::group(['prefix' => 'tasks', 'middleware' => 'auth:sanctum'], function () {
